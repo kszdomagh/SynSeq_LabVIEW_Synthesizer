@@ -1,4 +1,4 @@
-work in progress
+last edited 21.01.2025
 
 SynSeq - LabVIEW Synthesizer with built in 16-step Sequencer
 
@@ -17,6 +17,10 @@ The program uses 2 {UPDATE WHEN NECESSERY} custom SubVI's:
 	- Distortion_SubVI;
 	- Filter_SubVIv;
 	- Settings_SubVI;
+	- Pitch_LFO_SubVI;
+	- FFTCalc_SubVI;
+	- Waveform_Generation_SubVI;
+	
 
 Front panel is equipped with several Waveform graphs:
 	- graph of ADSR Envelope;
@@ -27,11 +31,14 @@ Controls for the sequencer are as listed:
 	- 16 knobs for all of the steps of the sequencer;
 	- volume knob;
 	- sequence legnth knob;
+	- octave range knob;
+	- waveform selection;
 	- 4 sliders that control ADSR envelope generation;
 	- lowpass filter slider;
 	- lowpass filter enable switch;
 	- distortion slider;
 	- distortion  enable switch;
+	- "PLAY", "PAUSE", "LOAD", "SAVE", "SETTINGS", "STOP" buttons.
 
 
 //---------------------   SIMPLE OVERVIEW   -------------------------------------
@@ -51,20 +58,32 @@ Attack, Decay, Sustain and Release control the envelope generation, which is dis
 Attack, Decay and Release are time parameters, whereas Sustain is a level parameter.
 
 	LOWPASS FILTER MENU:
-tbd
+	Lowpass filter is turned on by the "Filter Enable" switch.
+Slider "Filter frequency" changes the -3dB frequency. Upper limit is dynamically changed based on the sampling frequency.
 
 
 	DISTORTION MENU:
-tbd
+	Distorion clipping is turned on by the Distorion Enable" switch.
+"Distortion level" slider changes the clipping threshold. IT also lowers the volume.
+
+
+	SUB OSCILATOR:
+	Suboscilator can be configured using three dials;
+"Sub Waveform Selection" changes the waveform of the sub.
+"Sub Note Dial" changes the frequency of the subOSC. (0 - one actave below the note played, 12- the note being played by the main oscilator)
+"Sub Volume" changes the volume of the suboscilator.
 
 
 	GRAPHS:
-tbd
+	There are currently three graphs on the Front Panel;
+"ADSR Graph" shows the current envelope.
+"Waveform Graph" shows the current Waveform being played with all the effects added.
+"FFT Graph" shows the Fourier Transform graph of the currently played waveform.
 
 
-
-
-
-
-
-kszdom
+	BUTTONS MENU:
+	Buttons menu is equipped with 6 buttons
+"PLAY" and "PAUSE" buttons are responsible for playing the sequence.
+"LOAD" and "SAVE" buttons are responsible for saving and loading sequences. They use an array of 17 elements (16 for the notes frequencies and 1 for the octave range).
+"SETTINGS" button can be used to change the sample rate and device ID.
+"STOP" stops the execution of the whole programme.
