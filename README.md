@@ -1,6 +1,13 @@
+Projekt zrealizowany w ramach zajęć "Podstawy Graficznych Języków Programowania"; MTM 2025; AGH;
+ 
 last edited 21.01.2025
 
+
+
+//---------------------   SynSeq  -------------------------------------
+
 SynSeq - LabVIEW Synthesizer with built in 16-step Sequencer
+
 
 //---------------------   SIMPLE OVERVIEW   -------------------------------------
 
