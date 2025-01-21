@@ -4,7 +4,7 @@ last edited 21.01.2025
 
 
 
-//---------------------   SynSeq  -------------------------------------
+// ---------------------   SynSeq  -------------------------------------
 
 SynSeq - LabVIEW Synthesizer with built in 16-step Sequencer
 
@@ -13,14 +13,14 @@ SynSeq - LabVIEW Synthesizer with built in 16-step Sequencer
 ![SynSeq v. 2](./SynSeq_v2/files/synseq_front.png)
 
 
-//---------------------   SIMPLE OVERVIEW   -------------------------------------
+// ---------------------   SIMPLE OVERVIEW   -------------------------------------
 
 SynSeq is a standalone LabVIEW based sequencer-synthesizer with built-in ADSR Envelope Generator, 16-step sequencer regulated with knobs that allow user to use microtonal music sequeces and fully explore his creative potential.
 
 The design was heavily inspired by KORG SR-1, KORG Volca series, Arturia products, old-school Roland drum machines and the modular diy eurorack-compatible synthesizer scene.
 
 
-//------------   CONTROLS AND INDICATORS LIST   ---------------------------------
+// ------------   CONTROLS AND INDICATORS LIST   ---------------------------------
 
 The program uses 2 {UPDATE WHEN NECESSERY} custom SubVI's:
 	- ADSR_Envelope_Generation_subVI;
@@ -52,7 +52,7 @@ Controls for the sequencer are as listed:
 	- "PLAY", "PAUSE", "LOAD", "SAVE", "SETTINGS", "STOP" buttons.
 
 
-//---------------------   SIMPLE OVERVIEW   -------------------------------------
+// ---------------------   SIMPLE OVERVIEW   -------------------------------------
 
 	INTRODUCTION:
 Using of SynSeq is very simple. The user first enters the settings for his session in the "Settings" panel.
