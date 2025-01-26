@@ -96,7 +96,7 @@ Suboscilator can be configured using three dials;
 "Sub Note Dial" changes the frequency of the subOSC. (0 - one actave below the note played, 12- the note being played by the main oscilator)
 "Sub Volume" changes the volume of the suboscilator.
 
-![SUbOscilatorButtons](./SynSeq_v2/files/sub_buttons.PNG)
+![SUbOscilatorButtons](./SynSeq_v2/files/sub_buttons.png)
 
 
 ## BUTTONS MENU:
