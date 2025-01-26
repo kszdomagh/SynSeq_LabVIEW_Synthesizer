@@ -63,14 +63,14 @@ Octave can be regulated by the "Octave Range" dial. Snapping is turned off which
 Sequence length as the name suggests regulates the time of each sequence.
 Waveform selects the waveform to be played. Notes are being read and generated on the fly so the user can input changes and hear them on the go.
 
-![SequenceGeneration](./SynSeq_v2/files/sequence.png)
+![SequenceGeneration](./SynSeq_v2/files/sequence.PNG)
 
 
 ## ADSR ENVELOPE GENERATION MENU:
 Attack, Decay, Sustain and Release control the envelope generation, which is displayed on the ADSR graph.
 Attack, Decay and Release are "time" parameters, whereas Sustain is a "level" parameter.
 
-![Envelope](./SynSeq_v2/files/ADSR.png)
+![Envelope](./SynSeq_v2/files/ADSR.PNG)
 
 
 ## LOWPASS FILTER MENU:
@@ -96,7 +96,7 @@ Suboscilator can be configured using three dials;
 "Sub Note Dial" changes the frequency of the subOSC. (0 - one actave below the note played, 12- the note being played by the main oscilator)
 "Sub Volume" changes the volume of the suboscilator.
 
-![SUbOscilatorButtons](./SynSeq_v2/files/sub_buttons.png)
+![SUbOscilatorButtons](./SynSeq_v2/files/sub_buttons.PNG)
 
 
 ## BUTTONS MENU:
